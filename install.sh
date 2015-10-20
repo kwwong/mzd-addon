@@ -35,6 +35,16 @@ mv /jci/opera/opera_dir/userjs/fps.js /jci/opera/opera_dir/userjs/fps.js.bak
 mv /jci/scripts/stage_wifi.sh /jci/scripts/stage_wifi.sh.bak
 mv /jci/scripts/get-vehicle-speed.sh /jci/scripts/get-vehicle-speed.sh.bak
 
+for USB in a b c d e
+do
+	INSTALLSH=/tmp/mnt/sd${USB}1
+	if [ -e "${INSTALLSH}/install.sh" ]
+	then
+		cd ${INSTALLSH}
+		break
+	fi
+done
+
 #
 cp -a jci/opera/opera_dir/userjs/addon-startup.js /jci/opera/opera_dir/userjs/
 cp -a jci/scripts/* /jci/scripts/

@@ -1,0 +1,223 @@
+div.flot-tick-label {
+	color: #999999;
+	font-family: Verdana;
+	font-size: 12px;
+}
+
+#speedometerContainer {
+	top:64px;
+	right:0;
+	bottom:0;
+	left:0;
+	height:100%;
+	width:100%;
+	z-index:20001;
+	position:absolute;
+	background-image: url('speedometer_background.jpg');
+}
+
+#speedometerMainDiv {
+	width: 700px;
+	height: 416px;
+	top: 15px;
+	left: 50px;
+	position: absolute;
+}
+
+#speedTopFieldSet, #speedAvgFieldSet, #tripTimeFieldSet, #idleTimeFieldSet {
+	position:absolute;
+	right: 0;
+	width: 170px;
+	height: 80px;
+	color: #999999;
+	text-align: center !important;
+	border-width: 1px 0 0 0;
+}
+#speedTopFieldSet {
+	top: 5px;
+}
+#speedAvgFieldSet {
+	top: 105px;
+}
+#tripTimeFieldSet {
+	top: 205px;
+}
+#idleTimeFieldSet {
+	top: 305px;
+}
+#speedTopValue, #speedAvgValue, #tripTimeValue, #idleTimeValue {
+	color:white;
+	font-family:'myfont',verdana;
+	margin-top:5px;
+}
+#speedTopValue, #speedAvgValue {
+	font-size: 35px;
+}
+#tripTimeValue, #idleTimeValue {
+	font-size: 30px;
+}
+#speedCurrent {
+	left: 290px;
+	top: 120px;
+	transform:translate(-50%, -50%);
+	position:absolute;
+	color:white;
+	font-family:'myfont',verdana;
+	font-size: 80px;
+}
+
+[class*="speedBarKph_"]{
+	height: 6px;
+	margin-top: 2px; 
+	border-top: 0px !important;
+}
+div.speedBarKph_5 { 
+	width: 110px; 
+	border: 1px solid #EFFBF8;
+}
+div.speedBarKph_10 { 
+	width: 114px; 
+	border: 1px solid #E0F8F1;
+}
+div.speedBarKph_15 { 
+	width: 118px; 
+	border: 1px solid #CEF6EC;
+}
+div.speedBarKph_20 { 
+	width: 123px; 
+	border: 1px solid #A9F5E1;
+}
+div.speedBarKph_25 { 
+	width: 128px; 
+	border: 1px solid #81F7D8;
+}
+div.speedBarKph_30 { 
+	width: 133px; 
+	border: 1px solid #58FAD0;
+}
+div.speedBarKph_40 { 
+	width: 138px; 
+	border: 1px solid #2EFE9A;
+}
+div.speedBarKph_50 { 
+	width: 143px; 
+	border: 1px solid #2EFE64;
+}
+div.speedBarKph_60 { 
+	width: 148px; 
+	border: 1px solid #2EFE2E;
+}
+div.speedBarKph_70 { 
+	width: 155px; 
+	border: 1px solid #64FE2E;
+}
+div.speedBarKph_80 { 
+	width: 165px; 
+	border: 1px solid #9AFE2E;
+}
+div.speedBarKph_90 { 
+	width: 180px; 
+	border: 1px solid #C8FE2E;
+}
+div.speedBarKph_100 { 
+	width: 200px; 
+	border: 1px solid #F7FE2E;
+}
+div.speedBarKph_110 { 
+	width: 220px; 
+	border: 1px solid #FACC2E;
+}
+div.speedBarKph_130 { 
+	width: 250px; 
+	border: 1px solid #FE9A2E;
+}
+div.speedBarKph_150 { 
+	width: 290px; 
+	border: 1px solid #FE642E;
+}
+div.speedBarKph_170 { 
+	width: 340px; 
+	border: 1px solid #FE2E2E;
+}
+div.speedBarKph_190 { 
+	width: 400px; 
+	border: 1px solid #FF0000;
+}
+
+[class*="speedBarMph_"]{
+	height: 6px;
+	margin-top: 2px; 
+	border-top: 0px !important;
+}
+div.speedBarMph_5 { 
+	width: 110px; 
+	border: 1px solid #EFFBF8;
+}
+div.speedBarMph_10 { 
+	width: 114px; 
+	border: 1px solid #E0F8F1;
+}
+div.speedBarMph_15 { 
+	width: 118px; 
+	border: 1px solid #CEF6EC;
+}
+div.speedBarMph_20 { 
+	width: 123px; 
+	border: 1px solid #A9F5E1;
+}
+div.speedBarMph_25 { 
+	width: 128px; 
+	border: 1px solid #81F7D8;
+}
+div.speedBarMph_30 { 
+	width: 133px; 
+	border: 1px solid #58FAD0;
+}
+div.speedBarMph_35 { 
+	width: 138px; 
+	border: 1px solid #2EFE9A;
+}
+div.speedBarMph_40 { 
+	width: 143px; 
+	border: 1px solid #2EFE64;
+}
+div.speedBarMph_45 { 
+	width: 148px; 
+	border: 1px solid #2EFE2E;
+}
+div.speedBarMph_50 { 
+	width: 155px; 
+	border: 1px solid #64FE2E;
+}
+div.speedBarMph_55 { 
+	width: 165px; 
+	border: 1px solid #9AFE2E;
+}
+div.speedBarMph_60 { 
+	width: 180px; 
+	border: 1px solid #C8FE2E;
+}
+div.speedBarMph_70 { 
+	width: 200px; 
+	border: 1px solid #F7FE2E;
+}
+div.speedBarMph_80 { 
+	width: 220px; 
+	border: 1px solid #FACC2E;
+}
+div.speedBarMph_90 { 
+	width: 250px; 
+	border: 1px solid #FE9A2E;
+}
+div.speedBarMph_100 { 
+	width: 290px; 
+	border: 1px solid #FE642E;
+}
+div.speedBarMph_110 { 
+	width: 340px; 
+	border: 1px solid #FE2E2E;
+}
+div.speedBarMph_130 { 
+	width: 400px; 
+	border: 1px solid #FF0000;
+}

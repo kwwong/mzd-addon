@@ -1,0 +1,73 @@
+<link rel="stylesheet" type="text/css" href="addon-speedometer/addon-speedometer.css">
+<script language="javascript" type="text/javascript" src="addon-speedometer/cufon-yui.js"></script>
+<script language="javascript" type="text/javascript" src="addon-speedometer/7-Segment_italic_500.font.js"></script>
+<script language="javascript" type="text/javascript" src="addon-speedometer/jquery.flot.min.js"></script>
+
+<div id="speedometerContainer">
+	<div id="speedometerMainDiv">
+		<fieldset id="speedTopFieldSet">
+			<legend style="margin-left:-20px; padding-left:0px; padding-right:10px; font-size:14px">Top Speed</legend>
+			<div id="speedTopValue">0</div>
+		</fieldset>
+		<fieldset id="speedAvgFieldSet">
+			<legend style="margin-left:-20px; padding-left:0px; padding-right:10px; font-size:14px">Average Speed</legend>
+			<div id="speedAvgValue">0</div>
+		</fieldset>
+		<fieldset id="tripTimeFieldSet">
+			<legend style="margin-left:-20px; padding-left:0px; padding-right:10px; font-size:14px">Drive Time</legend>
+			<div id="tripTimeValue">0:00</div>
+		</fieldset>
+		<fieldset id="idleTimeFieldSet">
+			<legend style="margin-left:-20px; padding-left:0px; padding-right:10px; font-size:14px">Idle Time</legend>
+			<div id="idleTimeValue">0:00</div>
+		</fieldset>
+		
+		<div id="speedCurrent">0</div>
+		
+		<div id="speedBarKphContainer">
+			<div class="speedBarKph_190"></div>
+			<div class="speedBarKph_170"></div>
+			<div class="speedBarKph_150"></div>
+			<div class="speedBarKph_130"></div>
+			<div class="speedBarKph_110"></div>
+			<div class="speedBarKph_100"></div>
+			<div class="speedBarKph_90"></div>
+			<div class="speedBarKph_80"></div>
+			<div class="speedBarKph_70"></div>
+			<div class="speedBarKph_60"></div>
+			<div class="speedBarKph_50"></div>
+			<div class="speedBarKph_40"></div>
+			<div class="speedBarKph_30"></div>
+			<div class="speedBarKph_25"></div>
+			<div class="speedBarKph_20"></div>
+			<div class="speedBarKph_15"></div>
+			<div class="speedBarKph_10"></div>
+			<div class="speedBarKph_5"></div>
+		</div>
+		
+		<div id="speedBarMphContainer">
+			<div class="speedBarMph_130"></div>
+			<div class="speedBarMph_110"></div>
+			<div class="speedBarMph_100"></div>
+			<div class="speedBarMph_90"></div>
+			<div class="speedBarMph_80"></div>
+			<div class="speedBarMph_70"></div>
+			<div class="speedBarMph_60"></div>
+			<div class="speedBarMph_55"></div>
+			<div class="speedBarMph_50"></div>
+			<div class="speedBarMph_45"></div>
+			<div class="speedBarMph_40"></div>
+			<div class="speedBarMph_35"></div>
+			<div class="speedBarMph_30"></div>
+			<div class="speedBarMph_25"></div>
+			<div class="speedBarMph_20"></div>
+			<div class="speedBarMph_15"></div>
+			<div class="speedBarMph_10"></div>
+			<div class="speedBarMph_5"></div>
+		</div>
+	
+		<div id="speedometerFlotPlotDiv" style="width:480px; height:200px; position:absolute; margin-top:14px"></div>
+	</div>
+</div>
+
+<script language="javascript" type="text/javascript" src="addon-speedometer/addon-speedometer.js"></script>
